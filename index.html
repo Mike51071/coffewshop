@@ -87,14 +87,14 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h3 class="modal-title">Coffe & Cake choice</h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="coffee-menu" aria-label="Close">Cofffe menu</button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="container-fluid">
                         <form>
                             <div class="row">
                                 <div class="mb-3 col-12">
-                                    <label class="sr-only" for="cake-menu">Coffee Menu</label>
+                                    <label class="sr-only" for="coffee-menu">Coffee Menu</label>
 
                                     <lable for="coffee-menu"> Coffee</lable>
                                     <select name="coffee-menu" id="cake-menu">
@@ -105,14 +105,15 @@
                                     </select>
                                 </div>
 
-                                <div class="mb-3 col-12">
+                                <div class="mb-3 col-sm-4 col-md-4">
                                     <label class="sr-only" for="cake">Cake:</label>
-                                    <select class="form-control" name="cake">
-                                        <option value="dark-roast-coffee"> Dark Roast Coffee | </option>
+                                    <select class="form" name="cake">
+                                        <option value="select">Select...</option>
+                                        <option value="dark-roast-coffee"> Dark Roast Coffee | 5.00$ </option>
                                         <option value="frappaccino">Frappaccino | 3.50$  </option>
                                         <option value="hot-chocolate">Hot Chocolate | 4.00$ </option>
                                         <option value="laté">Laté | 3.50$ </option>
-                                        <option value="espresso">Espresso | </option>
+                                        <option value="espresso">Espresso | 4.00$ </option>
                                     </select>
                                 </div>
                             </div>
